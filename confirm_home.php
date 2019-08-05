@@ -82,7 +82,7 @@ EOM;
         <meta charset="utf-8">
       <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <tittle>ONODA RINA'S PORTFORIO</tittle>
-        <div class="contact-head"><a href="help.php">CONTACT</a></div>
+        <div class="contact-head"><a href="help.html">CONTACT</a></div>
         <meta name="description" content="Web・アプリのデザインを行っています。企画からデザイン・コーディングまでの一連の流れをこなすことが可能です。お気軽にお問い合わせください">
         <meta name="kyewords" content="Portforio,ポートフォリオ,Webサイト,スマホアプリ,アプリ,デザイン,イラスト,コーディング,ウェブ,制作">
         <meta name="format-detection" content="telephone=no,addr=no,emai=no">

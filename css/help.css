@@ -10,6 +10,10 @@ body{
     background-color: #6AC5CE;
     text-decoration: none;
 }
+a:link { text-decoration: none; }　/*リンクの色*/
+a:visited { text-decoration: none; } 
+a:hover { text-decoration: none; } 
+a:active { text-decoration: none; }
 
 .gnav{
     position: fixed;
@@ -261,6 +265,7 @@ a + button {
 }
 a {
     text-decoration: none;
+    text-decoration-color: #ffffff;
 }
 a:focus, a:hover {
     outline: none;

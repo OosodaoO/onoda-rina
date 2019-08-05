@@ -44,7 +44,7 @@
                 <div><h1>お問い合わせ 送信完了</h1>
                     <p>お問い合わせありがとうございました。内容を確認のうえ、回答させて頂きます。<br>しばらくお待ちください。
                     </p>
-                    <a href="help.php">
+                    <a href="help.html">
                         <button type="button">お問い合わせフォームに戻る</button>
                     </a>
                 </div>
