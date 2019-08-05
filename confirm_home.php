@@ -88,7 +88,7 @@ EOM;
         <meta charset="utf-8">
       <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <tittle>ONODA RINA'S PORTFORIO</tittle>
-        <div class="contact-head">CONTACT</div>
+        <div class="contact-head"><a href="help.html">CONTACT</a></div>
         <meta name="description" content="Web・アプリのデザインを行っています。企画からデザイン・コーディングまでの一連の流れをこなすことが可能です。お気軽にお問い合わせください">
         <meta name="kyewords" content="Portforio,ポートフォリオ,Webサイト,スマホアプリ,アプリ,デザイン,イラスト,コーディング,ウェブ,制作">
         <meta name="format-detection" content="telephone=no,addr=no,emai=no">
@@ -113,21 +113,10 @@ EOM;
     <body id>
         <div id="content" style="display:block; opacity:1">
         <div id="gnav">
-            <div class="nav">
-                <p class="p1"><a link="apps.html">APPS</a><span></span></p>
-                <p class="p2"><a link="web.html">WEB</a><span></span></p>
-                <p class="p3"><a link="others.html">OTHERS</a><span></span></p>
-                <p class="p4"><a link="profile.html">PROFILE</a><span></span></p>
-                <p class="p5"><a link="contact.html">CONTACT</a></p>
-            </div>
             <div class="contact-box">
-                 <a href="#" class="btn facebook"><i class="fab fa-facebook-f"></i></a>
-       <a href="#" class="btn twitter"><i class="fab fa-twitter"></i></a>
+                 <a href="https://facebook.com/rina.onoda.90" class="btn facebook"><i class="fab fa-facebook-f"></i></a>
+       <a href="https://twitter.com/@oO48931155" class="btn twitter"><i class="fab fa-twitter"></i></a>
             </div>
-        <div id="logo">
-            <div class="logoR" style="left:-148px;
-top:-40px;"><img class="R" src="img/bg.png">     </div>  
-        </div>
      </div>
             </div>
             <div class="helpbox">
