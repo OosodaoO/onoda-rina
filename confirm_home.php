@@ -21,7 +21,7 @@
             $subject = "［自動送信］お問い合わせの確認";
 
             // メール本文を変数bodyに格納
-        $SUBbody = <<< EOM
+        $subbody = <<< EOM
 {$name}　様
 
 お問い合わいただきました。
@@ -79,7 +79,7 @@ EOM;
         mb_send_mail($email, $subject, $body, $header);
         
          // サンクスページに画面遷移させる
-        header("Location: http://honolulukyukou.sakura.ne.jp/thanxs.php");
+        header("Location: https://oosodaoo.github.io/onoda-rina/thanxs.php");
         exit;
     }
 ?>
@@ -113,6 +113,9 @@ EOM;
     <body id>
         <div id="content" style="display:block; opacity:1">
         <div id="gnav">
+             <div id="menu">
+                    <a href="index.html" class="fadelink"><img src="img/batu.png"></a>
+            </div>
             <div class="contact-box">
                  <a href="https://facebook.com/rina.onoda.90" class="btn facebook"><i class="fab fa-facebook-f"></i></a>
        <a href="https://twitter.com/@oO48931155" class="btn twitter"><i class="fab fa-twitter"></i></a>
