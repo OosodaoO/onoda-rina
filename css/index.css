@@ -400,11 +400,7 @@ color: #135161;
 }
 
 
-a:link { color: #135161; transition: 1s; }　/*リンクの色*/
-a:visited { color:#135161; }　/*訪問済みリンクの色*/
-a:hover { color: #ffffff; }　/*マウスオン時のリンクの色*/
-a:active { color: #ffffff; }　/*クリックしている時のリンクの色*/
-
+a:link { text-decoration: none; }　/*リンクの色*/
 
 .web{
     position: absolute;
