@@ -401,9 +401,10 @@ color: #135161;
 
 
 a:link { text-decoration: none; }　/*リンクの色*/
-a{
-   text-decoration-color: #ffffff;
-}
+a:visited { text-decoration: none; } 
+a:hover { text-decoration: none; } 
+a:active { text-decoration: none; }
+
 .web{
     position: absolute;
     width: 983px;
@@ -760,6 +761,11 @@ a{
     
     color: #6AC5CE;
 
+}
+
+.help:hover{
+    background:#FF8989;
+    color:#FFFFFF;
 }
 
 .fotter{
