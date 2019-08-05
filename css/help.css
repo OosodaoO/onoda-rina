@@ -8,6 +8,7 @@ body{
     margin:0;
     display: block;
     background-color: #6AC5CE;
+    text-decoration: none;
 }
 
 .gnav{
@@ -58,7 +59,7 @@ tittle{
     position: fixed;
     right: 15px;
     top: 300px;
-    
+    text-decoration: none;
    font-family: Roboto;
    font-style: normal; 
    font-weight: normal;
@@ -74,6 +75,7 @@ html{
     position: relative;
     width: 1366px;
     height: 691px;
+    text-decoration: none;
 }
 
 .logoR{

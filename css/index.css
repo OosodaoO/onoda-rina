@@ -9,6 +9,7 @@ body{
     border: 0;
     vertical-align: baseline;
     transition: all 1s;
+    text-decoration: none;
 }
 
 .header p{
@@ -65,7 +66,7 @@ tittle{
    font-weight: normal;
    font-size: 22px;
    line-height: 28px;
-
+   text-decoration: none;
    color: #000000;
 
    transform: rotate(-90deg);
@@ -783,6 +784,7 @@ a:active { color: #ffffff; }　/*クリックしている時のリンクの色*/
      padding-bottom: 39px;
     padding-top: 39px;
     float: left;
+    text-decoration: none;
 }
 .ibox{
     width: 400px;
@@ -792,6 +794,7 @@ a:active { color: #ffffff; }　/*クリックしている時のリンクの色*/
     padding-top: 39px;
     float: right;
     text-align: right;
+    text-decoration: none;
 }
 
 .qbox p{
