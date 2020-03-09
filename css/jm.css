@@ -257,9 +257,10 @@ a {
 .section_title .ttl-h3-1 .sankaku:before{
     content:"";
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-image: url(../img/fotter_btn01.png);
+    width: 24px;
+    height: 24px;
+    background-image:url(../img/sankaku.png);
+    background-repeat: no-repeat;
     background-size: contain;
     vertical-align: middle;
 }
