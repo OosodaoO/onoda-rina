@@ -37,7 +37,7 @@ header {
 }
 
 header nav {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -53,7 +53,7 @@ header nav h1 {
 
 header nav ul {
     overflow: hidden;
-    float: right;
+    float: left;
     padding: 34px 0;
 }
 
@@ -128,9 +128,18 @@ a {
     text-indent: -99999px;
 }
 
-#wrap-main #ContensArea .mainvisual-content{
-    min-height: 800px;
+@media screen and (max-width: 601px){
+    #wrap-main #ContensArea .mainvisual-content{
+    min-height: 93vh;
      position: relative;
+}
+}
+
+@media screen and (min-width: 600px){
+   #wrap-main #ContensArea .mainvisual-content{
+    min-height: 642px;
+     position: relative;
+}
 }
 
 #wrap-main #ContensArea .mainvisual-bg{
@@ -138,10 +147,19 @@ a {
     background-size: cover;
 }
 
+@media screen and (max-width: 601px){
 #wrap-main #ContensArea .mainvisual-content .mainviual-inner{
     width: 1000px;
     margin: 0 auto;
     position: relative;
+    }}
+
+@media screen and (min-width: 600px){
+    #wrap-main #ContensArea .mainvisual-content .mainviual-inner{
+    width: 93%;
+    margin: 0 auto;
+    position: relative;
+    }
 }
 
 #wrap-main #ContensArea .mainvisual-content .mainviual-inner .left{
@@ -165,7 +183,20 @@ a {
     right: 0;
 }
 
-#wrap-main #ContensArea .css-fade{
+@media screen and (min-width: 600px){#wrap-main #ContensArea .css-fade{
+    position: absolute;
+    right: 0px;
+    width: 100vw;
+    height: 642px;
+    background-color: #FFDCD9;
+    animation-name: fadein;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    z-index: -1;
+}}
+
+@media screen and (max-width: 601px){
+    #wrap-main #ContensArea .css-fade{
     position: absolute;
     right: 0px;
     width: 100vw;
@@ -176,6 +207,8 @@ a {
     animation-iteration-count: 1;
     z-index: -1;
 }
+}
+
 
 #wrap-main #ContensArea .tel .tel-pic{
     position: fixed;
@@ -218,8 +251,8 @@ a {
 .section_title .section_point .unit-elemet {
     position: absolute;
     width: 654px;
-    float: right;
-    padding-left: 345px;
+    float: left;
+    padding-left: 323px;
     margin-top: 175px;
     margin-bottom: 70px;
     text-align: center;
@@ -288,9 +321,9 @@ a {
 
 .section_cors_pr .unit_section_right{
     position: relative;
-    width: 654px;
+    width: 700px;
     float: left;
-    padding-left: 345px;
+    padding-left: 233px;
     margin-top: 70px;
     margin-bottom: 70px;
     
@@ -317,9 +350,9 @@ a {
 .section_cors_pr .unit_section_left .ttl-h3-1 h3{
     position: absolute;
     float: right;
-    margin-top: -204px;
+    margin-top: -198px;
     margin-left: 305px;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 2;
     margin-bottom: 0;
 }
@@ -334,7 +367,7 @@ a {
     position: absolute;
     float: right;
     margin-top: -233px;
-    margin-left: 305px;
+    margin-left: 332px;
     font-size: 20px;
     line-height: 2;
     margin-bottom: 0;
@@ -343,9 +376,9 @@ a {
 .section_cors_pr .unit_section_right .ttl-h3-1 h3{
     position: absolute;
     float: right;
-    margin-top: -204px;
-    margin-left: 305px;
-    font-size: 20px;
+    margin-top: -189px;
+    margin-left: 332px;
+    font-size: 13px;
     line-height: 2;
     margin-bottom: 0;
 }
@@ -371,12 +404,20 @@ a {
     background-size: auto 32px;
 }
 
+@media screen and (min-width: 600px){
+.passcontents{
+    position: relative;
+    height: 345px;
+}
+}
 
+@media screen and (max-width: 601px){
 .passcontents{
     position: relative;
     height: 496px;
-   background-color: #FFDCD9;
 }
+}
+
 
 .passcontents .ttl-unit p{
     height: 496x;
