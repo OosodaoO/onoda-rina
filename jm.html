@@ -7,7 +7,7 @@
         <meta content="JMセミナー☆彡 | 個別指導塾 幼児教室" property="og:title">
         <meta content="ふじと台にあるJMセミナーで学びませんか？楽しく確実にをモットーにお勉強が大好きなお子さんを育みます" name="og:description">
         
-       <link href="../onoda-rina/css/jm.css" media="all" rel="stylesheet">
+        <link href="../onoda-rina/css/index.css" media="all" rel="stylesheet">
     </head>
     
     <body class="index">
@@ -115,11 +115,27 @@
             </div>
               <!--合格実績せセクション--> 
             <div class="passcontents">
-            <div class="ttl-unit"><p><img src="img/content_02.png" alt="合格実績" class="pic"></p><h3></h3></div></div>
+            <div class="ttl-unit"><p><img src="img/content_02.png" alt="合格実績" class="pic"></p><div class="ttl-unit-h2"><span>智辯　和歌山小　１名<br>和歌山大学　教育学部附属小　２名<br>和歌山大学　教育学部　付属中　1名<br>桐蔭中　１名</span></div></div></div>
             
             <!--お問い合わせセクション--> 
             <div class="helpcontents">
-            <div class="ttl-unit"> <div class="ttl-unit-h2"><h2>お問い合わせ</h2></div></div></div>
+            <div class="ttl-unit"> <div class="ttl-unit-h2"><h2>お問い合わせ</h2></div> <form action="confirm_home.php" method="post" name="form" onsubmit="return validate()">
+        <div>
+            <div class="dname">
+                <label>お名前</label>
+                <input type="text" name="name" class="name" placeholder="例）山田太郎" value="">
+            </div>
+            <div class="demail">
+                <label>電話番号</label>
+                <input type="text" name="email" class="text" placeholder="例）000-000-000" value="">
+            </div>
+            <div class="dcontent">
+                <label>お問い合わせ内容</label>
+                <textarea name="contentbox" class="contentbox" rows="5" placeholder=""></textarea>
+            </div>
+        </div>
+        <button type="submit" class="submit">確認画面へ</button>
+    </form></div></div>
         
             <!--footer--> 
             <div class="footer">
